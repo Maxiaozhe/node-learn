@@ -1,8 +1,8 @@
 # Node
-async/await ‚ÌŽg—pƒeƒXƒg
+async/await ã®ä½¿ç”¨ãƒ†ã‚¹ãƒˆ
 
-1. Node“I?“ü?oT§
-Žg—preadline—ˆ
+1. Nodeçš„è¾“å…¥è¾“å‡ºæŽ§åˆ¶
+ä½¿ç”¨readlineæ¥
 ```js
 const readline = require('readline');
 const rl = readline.createInterface(
@@ -15,8 +15,8 @@ const rl = readline.createInterface(
 
 
 ```
-2. Žg—pasync/await—ˆ?’E‰ñ?’n?
-«‰ñ?”Ÿ”‰üŽÊ¬‰Â—pawait?—p“I•ûŽ®
+2. ä½¿ç”¨async/awaitæ¥æ‘†è„±å›žè°ƒåœ°ç‹±
+å°†å›žè°ƒå‡½æ•°æ”¹å†™æˆå¯ç”¨awaitè°ƒç”¨çš„æ–¹å¼
 ```js
 const question=async (message)=>{
     return new Promise((resolve,reject)=>{
